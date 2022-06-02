@@ -40,6 +40,10 @@
 .car-card {
   border: 1px solid black;
   border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: rgb(200, 223, 214);
   margin-bottom: 1rem;
   max-width: 100%;
   width: 100%;

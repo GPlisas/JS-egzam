@@ -10,23 +10,22 @@
  * @format
  */
 
-class Calculator {
-  constructor(a, b) {
-    this.a = a;
-    this.b = b;
-  }
-  sum() {
+function Calculator(a, b) {
+  this.a = a;
+  this.b = b;
+
+  this.sum = function () {
     return this.a + this.b;
-  }
-  division() {
+  };
+  this.division = function () {
     return this.a / this.b;
-  }
-  multiplication() {
+  };
+  this.multiplication = function () {
     return this.a * this.b;
-  }
-  substraction(a, b) {
+  };
+  this.substraction = function (a, b) {
     return this.a - this.b;
-  }
+  };
 }
 
 let number1 = new Calculator(10, 6);
